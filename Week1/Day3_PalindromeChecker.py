@@ -3,10 +3,8 @@ word = input("Enter a word: ")
 
 reverse = ""
 
-for i in range(len(word) - 1, -1, -1):
-    reverse = reverse + word[i]
-
-print("Reverse:", reverse)
+for char in word:
+    reverse = char + reverse
 
 if word == reverse:
     print("Palindrome")
