@@ -7,6 +7,7 @@ for number in numbers:
     else:
         print(number, "Odd")
 
+
 text = input("Enter a string: ")
 
 count = {}
@@ -15,6 +16,7 @@ for char in text:
     count[char] = count.get(char, 0) + 1
 
 print(count)
+
 
 students = {
     "John": [80, 90, 70],
