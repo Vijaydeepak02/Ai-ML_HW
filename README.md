@@ -1,6 +1,6 @@
 # AI/ML Learning Journey
 
-A structured, hands-on learning repository documenting my progress in Python, NumPy, Pandas, and foundational data science concepts.
+A structured, hands-on learning repository documenting my progress in Python, NumPy, Pandas, Data Visualization, Exploratory Data Analysis (EDA), and foundational data science concepts.
 
 The repository contains weekly exercises, coding practice, mini-projects, and key learnings developed through practical implementation.
 
@@ -12,6 +12,7 @@ The repository contains weekly exercises, coding practice, mini-projects, and ke
 |------|------------|------------|
 | Week 1 | Python Fundamentals | Variables, Data Types, Conditions, Loops, Functions, Lists, Strings, Dictionaries, File Handling |
 | Week 2 | NumPy & Pandas | Arrays, Indexing, Slicing, Statistics, DataFrames, Data Cleaning, Filtering, GroupBy, Data Analysis |
+| Week 3 | Data Visualization & EDA | Matplotlib, Seaborn, Charts, Statistics, Correlation, Outliers, EDA |
 
 ---
 
