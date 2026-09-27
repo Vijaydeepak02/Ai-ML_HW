@@ -1,225 +1,373 @@
-# AI/ML Learning Journey
+# AI/ML Learning Journey — Weeks 1, 2 & 3
 
-A structured, hands-on learning repository documenting my progress in Python, NumPy, Pandas, Data Visualization, Exploratory Data Analysis (EDA), and foundational data science concepts.
-
-The repository contains weekly exercises, coding practice, mini-projects, and key learnings developed through practical implementation.
+This repository contains my learning and hands-on practice from the first three weeks of my AI/ML journey.
 
 ---
 
-## Weekly Progress
+# Week 1 — Python Fundamentals
 
-| Week | Focus Area | Key Topics |
-|------|------------|------------|
-| Week 1 | Python Fundamentals | Variables, Data Types, Conditions, Loops, Functions, Lists, Strings, Dictionaries, File Handling |
-| Week 2 | NumPy & Pandas | Arrays, Indexing, Slicing, Statistics, DataFrames, Data Cleaning, Filtering, GroupBy, Data Analysis |
-| Week 3 | Data Visualization & EDA | Matplotlib, Seaborn, Charts, Statistics, Correlation, Outliers, EDA |
+## What I Learned
 
----
+During Week 1, I focused on building a strong foundation in Python programming and problem-solving.
 
-# Week 1 - Python Fundamentals
-
-## Overview
-
-Week 1 focused on building a strong foundation in Python programming through hands-on coding exercises and problem solving.
-
-## Topics Covered
-
-- Python basics
+### Python Basics
 - Variables and data types
 - Input and output
+- Conditional statements
 - If-else conditions
-- For loops and nested loops
+- For loops
+- While loops
 - Functions
-- Lists and list operations
-- Strings and string operations
-- Dictionaries
-- File handling
-- Basic calculations
-- Problem solving
 
-## Practice Completed
+### Lists and Basic Operations
+- Creating and working with lists
+- Adding elements
+- Inserting elements
+- Removing elements
+- Sorting lists
+- Reversing lists
+- Finding maximum and minimum values
+- Calculating sum and average
 
-- Checked whether numbers are positive, negative, or zero
-- Checked whether numbers are even or odd
-- Built a simple calculator
-- Performed list operations such as append, insert, remove, sort, and reverse
-- Found maximum and minimum values using loops
-- Calculated sum and average of list values
-- Generated multiplication tables
-- Performed string operations
-- Counted vowels and characters
-- Checked palindromes
-- Counted words and word lengths
-- Created and used functions
-- Calculated square, cube, factorial, and simple interest
-- Checked whether a number is prime
-- Generated Fibonacci series
-- Created star patterns using nested loops
-- Read, wrote, and appended text files
-- Calculated student averages and grades using dictionaries
-- Combined multiple Python concepts to solve programming problems
+### String Operations
+- Finding string length
+- Converting strings to uppercase and lowercase
+- Reversing strings
+- Counting vowels
+- Checking palindromes
+- Counting words
+- Finding character frequency
 
-## Learning Outcome
+### Functions and Logic
+- Creating reusable functions
+- Square and cube calculations
+- Factorial
+- Simple interest
+- Prime number checking
+- Fibonacci series
+- Pattern printing using nested loops
 
-By the end of Week 1, I developed a strong foundation in Python programming and improved my understanding of:
+### Dictionaries
+- Creating dictionaries
+- Working with key-value pairs
+- Using dictionaries for character frequency
+- Using dictionaries for student marks and grades
 
-- Programming logic
-- Control flow
-- Data structures
-- Functions
-- File handling
-- Problem solving
+### File Handling
+- Creating text files
+- Writing data to files
+- Appending data
+- Reading data from files
 
-These exercises helped improve my coding logic and confidence in writing Python programs.
+### Practice Programs
+- Number classification
+- Even and odd checker
+- Simple calculator
+- List operations
+- Maximum and minimum finder
+- Sum and average calculation
+- Multiplication table
+- String operations
+- Palindrome checker
+- Word counter
+- Character frequency
+- Prime number checker
+- Fibonacci series
+- Pattern printing
+- Student marks and grade program
+- Mini practice problems
+
+## Week 1 Outcome
+
+By the end of Week 1, I practiced basic Python programming, logical problem-solving, functions, data structures, and file handling.
 
 ---
 
-# Week 2 - NumPy & Pandas
+# Week 2 — NumPy and Pandas
 
-## Overview
+## What I Learned
 
-Week 2 focused on learning NumPy and Pandas for numerical computing, data manipulation, data cleaning, and basic data analysis.
+During Week 2, I moved from basic Python programming to working with numerical data and structured datasets using NumPy and Pandas.
 
 ## NumPy
 
-### Topics Covered
+### NumPy Arrays
+- Creating one-dimensional arrays
+- Creating two-dimensional arrays
+- Understanding array shape
+- Understanding array size
+- Understanding number of dimensions
 
-- Creating 1D and 2D arrays
-- Array shape, size, and dimensions
-- Indexing and slicing
-- Arithmetic operations
-- Reshaping and flattening arrays
-- Random number generation
-- Mean, median, and standard deviation
-- Matrix addition and multiplication
+### Array Indexing and Slicing
+- Accessing individual elements
+- Accessing rows
+- Accessing columns
+- Slicing arrays
 
-### Practice
+### Array Operations
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-- Created and inspected NumPy arrays
-- Accessed elements using indexing
-- Extracted values using slicing
-- Performed addition, subtraction, multiplication, and division
-- Used `reshape()` and `flatten()`
-- Generated random integers and floating-point values
-- Calculated statistical measures
-- Performed matrix operations
+### Array Reshaping
+- Reshaping arrays
+- Flattening arrays
+- Understanding changes in array structure
+
+### Random Data
+- Generating random integers
+- Generating random floating-point values
+- Understanding generated value ranges
+
+### Basic Statistics
+- Mean
+- Median
+- Standard deviation
+- Comparing calculated results
+
+### Matrix Operations
+- Creating matrices
+- Matrix addition
+- Matrix multiplication
 
 ---
 
-## Pandas
+# Pandas
 
-### Topics Covered
+### Pandas Series
+- Creating Series
+- Indexing Series
+- Filtering Series
+- Accessing values
 
-- Pandas Series
-- Pandas DataFrames
-- Creating DataFrames from dictionaries and lists
-- Selecting single and multiple columns
+### Pandas DataFrames
+- Creating DataFrames
+- Creating DataFrames from dictionaries
+- Creating DataFrames from lists
+- Understanding rows and columns
+
+### Working with CSV Data
+- Reading CSV datasets
+- Inspecting datasets
+- Understanding dataset structure
+- Viewing the first and last records
+- Checking dataset information
+- Generating descriptive statistics
+
+### Selecting and Filtering Data
+- Selecting individual columns
+- Selecting multiple columns
 - Filtering rows using conditions
-- Data inspection
-- Reading and writing CSV files
-- Missing value handling
+
+### Missing Values
+- Identifying missing values
+- Filling missing values
+- Removing missing values
+
+### Sorting and Renaming
+- Renaming columns
+- Sorting data
+- Sorting based on one or more columns
+
+### Creating New Columns
 - Creating calculated columns
-- `groupby()` operations
-- Basic data analysis
+- Calculating totals
+- Calculating percentages
+- Creating new information from existing columns
 
-### Practice
+### GroupBy
+- Grouping data by categories
+- Calculating counts
+- Calculating averages
+- Summarizing grouped data
 
-- Created Pandas Series and DataFrames
-- Selected and filtered data
-- Inspected datasets using:
-  - `head()`
-  - `tail()`
-  - `info()`
-  - `describe()`
-- Created and loaded CSV files
-- Identified missing values using `isnull()`
-- Filled missing values using `fillna()`
-- Removed missing values using `dropna()`
-- Created calculated columns such as total marks and percentage
-- Used `groupby()` to calculate counts and averages
+## Week 2 Mini Project
+
+I practiced working with a small dataset by:
+
+- Creating or loading a dataset
+- Cleaning the dataset
+- Analyzing the data
+- Producing a summary
+- Documenting the analysis
+
+## Week 2 Outcome
+
+By the end of Week 2, I practiced working with NumPy arrays, numerical calculations, Pandas DataFrames, CSV datasets, data filtering, missing values, grouping, and basic data analysis.
 
 ---
 
-## Week 2 Mini Project - Student Marks Analysis
+# Week 3 — Data Visualization and Exploratory Data Analysis
 
-Created a small student marks dataset and performed a basic data analysis workflow.
+## What I Learned
 
-### Workflow
+During Week 3, I focused on understanding data through visualization, data cleaning, and Exploratory Data Analysis (EDA).
 
-```text
-Create Dataset
-      ↓
-Identify Missing Values
-      ↓
-Clean Data
-      ↓
-Create Calculated Columns
-      ↓
-Analyze Data
-      ↓
-Generate Summary
+---
 
-# Week 3 – Data Visualization & EDA
+# Matplotlib
 
-## Overview
+### Basic Visualizations
+- Line charts
+- Bar charts
+- Histograms
+- Scatter plots
 
-Week 3 focused on **Data Visualization, Data Cleaning, and Exploratory Data Analysis (EDA)** using Python.
+### Visualization Practice
+- Creating multiple charts
+- Adding titles
+- Adding axis labels
+- Adding legends
+- Adding gridlines
+- Adding markers
+- Adjusting figure size
+- Improving chart readability
+- Saving charts as image files
 
-## Topics Covered
+---
 
-### Matplotlib
-- Line Chart – trends
-- Bar Chart – category comparison
-- Histogram – data distribution
-- Scatter Plot – relationship between variables
-- Chart formatting and readability
-- Saving charts using `savefig()`
+# Seaborn
 
-### Seaborn
-- Count Plot – category counts
-- Box Plot – distribution and outliers
-- Pair Plot – relationships between variables
-- Histogram – distribution
-- Scatter Plot – relationships
-- Heatmap – correlation
+I practiced basic statistical visualizations using Seaborn.
 
-### Data Analysis & Cleaning
-- Dataset inspection using `head()`, `info()`, and `describe()`
-- Missing value analysis
-- Duplicate detection and removal
-- Mean and median
-- GroupBy and categorical analysis
-- Data type conversion
-- Correlation analysis
-- Outlier detection using IQR
+### Seaborn Charts
+- Count plots
+- Box plots
+- Pair plots
 
-## Mini EDA Project – Student Performance
+---
 
-### Objective
-Analyze student performance across different departments and identify patterns, distributions, relationships, and possible outliers.
+# Exploratory Data Analysis (EDA)
 
-### Dataset
+I learned how to explore a dataset and identify useful information and patterns.
 
-| Column | Description |
-|---|---|
-| Name | Student name |
-| Department | Student department |
-| Math | Math marks |
-| Science | Science marks |
-| English | English marks |
-| Age | Student age |
+### Distribution Analysis
+- Analyzing numerical columns
+- Understanding data distributions
+- Comparing mean and median
+- Understanding the behavior of numerical data
 
-### EDA Process
+### Correlation Analysis
+- Creating correlation matrices
+- Understanding relationships between numerical variables
+- Creating correlation heatmaps
 
-```text
-Load Data
-   ↓
-Inspect Data
-   ↓
-Clean Data
-   ↓
-Analyze Data
-   ↓
-Visualize Data
-   ↓
-Find Insights
+### Categorical Analysis
+- Analyzing categorical features
+- Counting categories
+- Calculating averages by category
+- Presenting categorical results visually
+
+---
+
+# Data Cleaning
+
+I practiced preparing data before analysis.
+
+### Data Cleaning Tasks
+- Identifying duplicate rows
+- Removing duplicate rows
+- Standardizing column formats
+- Preparing data for analysis
+
+### Data Type Conversion
+- Converting strings to numeric values
+- Converting values into date formats
+- Adjusting categorical data types
+
+---
+
+# Outlier Detection
+
+I learned the basics of identifying unusual values in a dataset.
+
+### Techniques Practiced
+- Box plots
+- IQR method
+- Identifying potential outliers
+
+---
+
+# EDA Summary
+
+After analyzing a dataset, I practiced:
+
+- Identifying important observations
+- Supporting observations with charts
+- Understanding numerical patterns
+- Understanding categorical patterns
+- Identifying relationships between variables
+- Communicating findings from the data
+
+---
+
+# Week 3 Mini EDA Project
+
+I practiced performing a complete exploratory data analysis on a sample CSV dataset.
+
+### Project Workflow
+
+- Load the dataset
+- Inspect the data
+- Clean the data
+- Analyze numerical columns
+- Analyze categorical columns
+- Check for outliers
+- Analyze correlations
+- Create visualizations
+- Identify important patterns
+- Write key findings
+
+## Week 3 Outcome
+
+By the end of Week 3, I practiced data visualization, data cleaning, outlier detection, correlation analysis, categorical analysis, and Exploratory Data Analysis.
+
+---
+
+# Overall Learning Progress
+
+## Week 1
+**Python Fundamentals**
+
+Learned programming logic, conditions, loops, functions, lists, strings, dictionaries, and file handling.
+
+## Week 2
+**NumPy + Pandas**
+
+Learned how to work with arrays, numerical data, DataFrames, CSV files, missing values, filtering, sorting, grouping, and basic data analysis.
+
+## Week 3
+**Visualization + EDA**
+
+Learned how to visualize data, clean datasets, identify outliers, analyze distributions and correlations, and perform basic exploratory data analysis.
+
+---
+
+# Skills Covered
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Data Cleaning
+- Data Analysis
+- Data Visualization
+- Exploratory Data Analysis (EDA)
+- Basic Statistics
+- Git and GitHub Project Organization
+
+---
+
+# Learning Progress
+
+Python Fundamentals
+→ NumPy
+→ Pandas
+→ Data Analysis
+→ Data Visualization
+→ Data Cleaning
+→ Exploratory Data Analysis
+
+These three weeks helped me build the foundation required to move forward into Machine Learning concepts and projects.
