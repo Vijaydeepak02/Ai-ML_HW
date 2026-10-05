@@ -1,373 +1,126 @@
-# AI/ML Learning Journey — Weeks 1, 2 & 3
+# AI/ML Learning Journey — Weeks 1, 2, 3 & 4
 
-This repository contains my learning and hands-on practice from the first three weeks of my AI/ML journey.
+This repository contains my hands-on learning and practice in Python, data analysis, visualization, and machine learning.
 
 ---
 
 # Week 1 — Python Fundamentals
 
-## What I Learned
+Learned the basics of Python programming and problem-solving.
 
-During Week 1, I focused on building a strong foundation in Python programming and problem-solving.
-
-### Python Basics
+### Topics
 - Variables and data types
-- Input and output
-- Conditional statements
-- If-else conditions
-- For loops
-- While loops
+- Conditions and loops
+- Lists, strings, and dictionaries
 - Functions
+- File handling
+- Basic problem solving
 
-### Lists and Basic Operations
-- Creating and working with lists
-- Adding elements
-- Inserting elements
-- Removing elements
-- Sorting lists
-- Reversing lists
-- Finding maximum and minimum values
-- Calculating sum and average
-
-### String Operations
-- Finding string length
-- Converting strings to uppercase and lowercase
-- Reversing strings
-- Counting vowels
-- Checking palindromes
-- Counting words
-- Finding character frequency
-
-### Functions and Logic
-- Creating reusable functions
-- Square and cube calculations
-- Factorial
-- Simple interest
-- Prime number checking
-- Fibonacci series
-- Pattern printing using nested loops
-
-### Dictionaries
-- Creating dictionaries
-- Working with key-value pairs
-- Using dictionaries for character frequency
-- Using dictionaries for student marks and grades
-
-### File Handling
-- Creating text files
-- Writing data to files
-- Appending data
-- Reading data from files
-
-### Practice Programs
-- Number classification
-- Even and odd checker
-- Simple calculator
+### Practice
+- Calculator
+- Number checking
 - List operations
-- Maximum and minimum finder
-- Sum and average calculation
-- Multiplication table
 - String operations
-- Palindrome checker
-- Word counter
-- Character frequency
-- Prime number checker
+- Palindrome and prime checking
 - Fibonacci series
-- Pattern printing
-- Student marks and grade program
-- Mini practice problems
-
-## Week 1 Outcome
-
-By the end of Week 1, I practiced basic Python programming, logical problem-solving, functions, data structures, and file handling.
+- Student marks and grades
 
 ---
 
 # Week 2 — NumPy and Pandas
 
-## What I Learned
+Learned how to work with numerical data and structured datasets.
 
-During Week 2, I moved from basic Python programming to working with numerical data and structured datasets using NumPy and Pandas.
+### NumPy
+- Arrays
+- Indexing and slicing
+- Array operations
+- Reshaping
+- Random data
+- Basic statistics
+- Matrix operations
 
-## NumPy
+### Pandas
+- Series and DataFrames
+- CSV files
+- Filtering and sorting
+- Missing values
+- Calculated columns
+- GroupBy and basic analysis
 
-### NumPy Arrays
-- Creating one-dimensional arrays
-- Creating two-dimensional arrays
-- Understanding array shape
-- Understanding array size
-- Understanding number of dimensions
-
-### Array Indexing and Slicing
-- Accessing individual elements
-- Accessing rows
-- Accessing columns
-- Slicing arrays
-
-### Array Operations
-- Addition
-- Subtraction
-- Multiplication
-- Division
-
-### Array Reshaping
-- Reshaping arrays
-- Flattening arrays
-- Understanding changes in array structure
-
-### Random Data
-- Generating random integers
-- Generating random floating-point values
-- Understanding generated value ranges
-
-### Basic Statistics
-- Mean
-- Median
-- Standard deviation
-- Comparing calculated results
-
-### Matrix Operations
-- Creating matrices
-- Matrix addition
-- Matrix multiplication
+### Mini Project
+Student marks analysis using Pandas and NumPy.
 
 ---
 
-# Pandas
+# Week 3 — Data Visualization and EDA
 
-### Pandas Series
-- Creating Series
-- Indexing Series
-- Filtering Series
-- Accessing values
+Learned how to explore and understand data using visualizations.
 
-### Pandas DataFrames
-- Creating DataFrames
-- Creating DataFrames from dictionaries
-- Creating DataFrames from lists
-- Understanding rows and columns
-
-### Working with CSV Data
-- Reading CSV datasets
-- Inspecting datasets
-- Understanding dataset structure
-- Viewing the first and last records
-- Checking dataset information
-- Generating descriptive statistics
-
-### Selecting and Filtering Data
-- Selecting individual columns
-- Selecting multiple columns
-- Filtering rows using conditions
-
-### Missing Values
-- Identifying missing values
-- Filling missing values
-- Removing missing values
-
-### Sorting and Renaming
-- Renaming columns
-- Sorting data
-- Sorting based on one or more columns
-
-### Creating New Columns
-- Creating calculated columns
-- Calculating totals
-- Calculating percentages
-- Creating new information from existing columns
-
-### GroupBy
-- Grouping data by categories
-- Calculating counts
-- Calculating averages
-- Summarizing grouped data
-
-## Week 2 Mini Project
-
-I practiced working with a small dataset by:
-
-- Creating or loading a dataset
-- Cleaning the dataset
-- Analyzing the data
-- Producing a summary
-- Documenting the analysis
-
-## Week 2 Outcome
-
-By the end of Week 2, I practiced working with NumPy arrays, numerical calculations, Pandas DataFrames, CSV datasets, data filtering, missing values, grouping, and basic data analysis.
-
----
-
-# Week 3 — Data Visualization and Exploratory Data Analysis
-
-## What I Learned
-
-During Week 3, I focused on understanding data through visualization, data cleaning, and Exploratory Data Analysis (EDA).
-
----
-
-# Matplotlib
-
-### Basic Visualizations
-- Line charts
-- Bar charts
-- Histograms
-- Scatter plots
-
-### Visualization Practice
-- Creating multiple charts
-- Adding titles
-- Adding axis labels
-- Adding legends
-- Adding gridlines
-- Adding markers
-- Adjusting figure size
-- Improving chart readability
-- Saving charts as image files
-
----
-
-# Seaborn
-
-I practiced basic statistical visualizations using Seaborn.
-
-### Seaborn Charts
-- Count plots
-- Box plots
-- Pair plots
-
----
-
-# Exploratory Data Analysis (EDA)
-
-I learned how to explore a dataset and identify useful information and patterns.
-
-### Distribution Analysis
-- Analyzing numerical columns
-- Understanding data distributions
-- Comparing mean and median
-- Understanding the behavior of numerical data
-
-### Correlation Analysis
-- Creating correlation matrices
-- Understanding relationships between numerical variables
-- Creating correlation heatmaps
-
-### Categorical Analysis
-- Analyzing categorical features
-- Counting categories
-- Calculating averages by category
-- Presenting categorical results visually
-
----
-
-# Data Cleaning
-
-I practiced preparing data before analysis.
-
-### Data Cleaning Tasks
-- Identifying duplicate rows
-- Removing duplicate rows
-- Standardizing column formats
-- Preparing data for analysis
-
-### Data Type Conversion
-- Converting strings to numeric values
-- Converting values into date formats
-- Adjusting categorical data types
-
----
-
-# Outlier Detection
-
-I learned the basics of identifying unusual values in a dataset.
-
-### Techniques Practiced
-- Box plots
-- IQR method
-- Identifying potential outliers
-
----
-
-# EDA Summary
-
-After analyzing a dataset, I practiced:
-
-- Identifying important observations
-- Supporting observations with charts
-- Understanding numerical patterns
-- Understanding categorical patterns
-- Identifying relationships between variables
-- Communicating findings from the data
-
----
-
-# Week 3 Mini EDA Project
-
-I practiced performing a complete exploratory data analysis on a sample CSV dataset.
-
-### Project Workflow
-
-- Load the dataset
-- Inspect the data
-- Clean the data
-- Analyze numerical columns
-- Analyze categorical columns
-- Check for outliers
-- Analyze correlations
-- Create visualizations
-- Identify important patterns
-- Write key findings
-
-## Week 3 Outcome
-
-By the end of Week 3, I practiced data visualization, data cleaning, outlier detection, correlation analysis, categorical analysis, and Exploratory Data Analysis.
-
----
-
-# Overall Learning Progress
-
-## Week 1
-**Python Fundamentals**
-
-Learned programming logic, conditions, loops, functions, lists, strings, dictionaries, and file handling.
-
-## Week 2
-**NumPy + Pandas**
-
-Learned how to work with arrays, numerical data, DataFrames, CSV files, missing values, filtering, sorting, grouping, and basic data analysis.
-
-## Week 3
-**Visualization + EDA**
-
-Learned how to visualize data, clean datasets, identify outliers, analyze distributions and correlations, and perform basic exploratory data analysis.
-
----
-
-# Skills Covered
-
-- Python
-- NumPy
-- Pandas
+### Topics
 - Matplotlib
 - Seaborn
-- Data Cleaning
-- Data Analysis
-- Data Visualization
+- Line, bar, histogram, and scatter plots
+- Count plots and box plots
+- Mean and median
+- Correlation
+- Outlier detection using IQR
+- Data cleaning
 - Exploratory Data Analysis (EDA)
-- Basic Statistics
-- Git and GitHub Project Organization
+
+### Mini Project
+Student performance EDA using CSV data, visualizations, correlation analysis, and outlier detection.
 
 ---
 
-# Learning Progress
+# Week 4 — Machine Learning Fundamentals
 
-Python Fundamentals
-→ NumPy
-→ Pandas
-→ Data Analysis
-→ Data Visualization
-→ Data Cleaning
-→ Exploratory Data Analysis
+Learned the basic machine learning workflow and practiced regression and classification models.
 
-These three weeks helped me build the foundation required to move forward into Machine Learning concepts and projects.
+### Topics
+- Machine Learning workflow
+- Features and target
+- Independent and dependent variables
+- Train-test split
+- Linear Regression
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Feature scaling
+- StandardScaler
+- MinMaxScaler
+
+### Model Evaluation
+- MAE
+- MSE
+- Accuracy
+- Confusion Matrix
+- Precision
+- Recall
+- F1-score
+
+### Practice
+- Built a Linear Regression model
+- Compared actual vs predicted values
+- Evaluated regression using MAE and MSE
+- Built a Logistic Regression classifier
+- Generated a confusion matrix
+- Evaluated classification using accuracy, precision, recall, and F1-score
+- Built a KNN classifier with different K values
+- Compared results with and without feature scaling
+- Compared Logistic Regression and KNN
+
+### Mini Project
+Completed an end-to-end classification workflow:
+
+```text
+Load Data
+   ↓
+Prepare Data
+   ↓
+Train/Test Split
+   ↓
+Train Model
+   ↓
+Make Predictions
+   ↓
+Evaluate Model
