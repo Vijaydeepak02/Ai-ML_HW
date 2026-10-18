@@ -1,6 +1,6 @@
-# AI/ML Learning Journey — Weeks 1, 2, 3, 4 & 5
+# AI/ML Learning Journey — Weeks 1, 2, 3, 4, 5 & 6
 
-This repository contains my hands-on learning and practice in Python, data analysis, visualization, and machine learning.
+This repository contains my hands-on learning and practice in Python, data analysis, visualization, machine learning, and unsupervised learning.
 
 ---
 
@@ -185,6 +185,69 @@ Select the Best Model
 
 ---
 
+# Week 6 — Unsupervised Learning
+
+Learned how to discover hidden patterns in datasets using clustering, dimensionality reduction, and outlier detection.
+
+### Topics
+- Introduction to Unsupervised Learning
+- Supervised vs. Unsupervised Learning
+- KMeans Clustering
+- Cluster assignments and cluster analysis
+- Scatter plot visualization
+- Elbow Method for selecting the number of clusters
+- Feature scaling using StandardScaler
+- Principal Component Analysis (PCA)
+- Dimensionality reduction
+- Explained variance ratio
+- Clustering on PCA-transformed data
+- Outlier detection using IQR
+- Distance-based outlier detection
+- Removing and capping outliers
+
+### Practice
+- Applied KMeans to group similar data points
+- Analyzed cluster assignments and cluster characteristics
+- Used the Elbow Method to help select a suitable number of clusters
+- Compared clustering results before and after feature scaling
+- Applied PCA to reduce the number of features
+- Visualized data using two principal components
+- Examined explained variance to understand information retained by PCA
+- Compared clustering on original scaled data and PCA-transformed data
+- Identified unusual values using IQR and distance-based methods
+- Compared datasets after removing or capping outliers
+
+### Mini Project
+Performed customer segmentation using annual income and spending score.
+
+```text
+Load Customer Data
+   ↓
+Clean Data
+   ↓
+Select Relevant Features
+   ↓
+Scale Features
+   ↓
+Apply Elbow Method
+   ↓
+Perform KMeans Clustering
+   ↓
+Analyze Cluster Characteristics
+   ↓
+Visualize Customer Segments
+   ↓
+Provide Business Recommendations
+```
+
+### Business Applications
+- Identify customer groups with similar spending behavior
+- Develop targeted marketing campaigns
+- Recommend premium products or budget-friendly offers
+- Improve customer engagement through personalized promotions
+
+---
+
 # Skills Covered
 
 - Python
@@ -202,6 +265,12 @@ Select the Best Model
 - Cross-Validation
 - Hyperparameter Tuning
 - Machine Learning Pipelines
+- KMeans Clustering
+- Feature Scaling
+- Principal Component Analysis (PCA)
+- Dimensionality Reduction
+- Outlier Detection
+- Customer Segmentation
 - Git and GitHub
 
 ---
@@ -219,7 +288,11 @@ Week 4 → Machine Learning Fundamentals
      ↓
 Week 5 → Tree-Based Models and Model Optimization
      ↓
+Week 6 → Unsupervised Learning and Customer Segmentation
+     ↓
 Next → Advanced ML Algorithms and Projects
 ```
 
-These five weeks helped me develop a practical foundation in Python, data analysis, visualization, and machine learning, from data preparation to model evaluation and comparison.
+## Conclusion
+
+These six weeks helped me build a practical foundation in Python programming, data analysis, visualization, supervised machine learning, model optimization, and unsupervised learning. My practice progressed from basic programming and data preparation to building predictive models, evaluating performance, discovering patterns through clustering, and interpreting results for business applications.
